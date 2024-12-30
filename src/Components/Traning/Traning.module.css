@@ -1,0 +1,150 @@
+.main {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+}
+.header {
+  background-color: #8b0000;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header .icons {
+  display: flex;
+  align-items: center;
+}
+
+.header .icons i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.sidebar p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.sidebar .menu {
+  margin-top: 20px;
+}
+
+.sidebar .menu a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+}
+
+.sidebar .menu a:hover,
+.sidebar .menu a.active {
+  background-color: #f5f5f5;
+  border-left: 3px solid #8b0000;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.content h2 {
+  color: #8b0000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filters input[type="radio"] {
+  margin-right: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+table th {
+  background-color: #8b0000;
+  color: white;
+}
+
+table td {
+  background-color: #f9f9f9;
+}
+
+table td .fa-check-circle {
+  color: green;
+}
+
+table td .fa-chevron-down {
+  color: #8b0000;
+}
+.tableContainer {
+  min-height: 100vh !important;
+}

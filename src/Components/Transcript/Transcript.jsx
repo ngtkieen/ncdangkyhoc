@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Transcript.module.css";
-
+import SearchSubject from "../SearchSubject/SearchSubject";
 export const Transcript = () => {
   return (
     <div className={styles.main}>
@@ -60,6 +60,9 @@ export const Transcript = () => {
               <input name="view" type="radio" />
               Xem điểm theo chương trình đào tạo
             </label>
+          </div>
+          <div className={styles.filters}>
+            <SearchSubject/>
           </div>
           <div className={styles.tableContainer}>
             <table>
